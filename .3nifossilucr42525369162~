@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="2.css">
+
+	<title>CodingLab | Dashboard</title>
+</head>
+<body>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, 
+user-scalable=no">
+	<div class="ocean">
+		<div class="wave"></div>
+	  </div>
+
+	<!-- SIDEBAR -->
+	<nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="logo.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Codinglab</span>
+                    <span class="profession">by RellCuy</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="home.php">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="chatgpt.html">
+                            <i class='bx bx-analyse icon' ></i>
+                            <span class="text nav-text">ChatGPT</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Notifications</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Likes</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-wallet icon' ></i>
+                            <span class="text nav-text">Wallets</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="logout.php">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+	<!-- SIDEBAR -->
+		<!-- MAIN -->
+		<section class="tulis">
+			<div class="tex">HTML, CSS, PHP, JavaScript, and Python are all programming or scripting languages, but they each serve different purposes and have unique features. Here's a brief overview of each language:
+			HTML: Used for creating web pages and adding structure and content to them.
+			CSS: Used for styling web pages, including formatting, layout, colors, and typography.
+			PHP: Used for server-side web development, including processing forms, accessing databases, and generating dynamic content.
+			JavaScript: Used for creating interactive and dynamic web pages, including animations, user input validation, and client-side form processing.
+			Python: A general-purpose programming language used for a wide variety of applications, including web development, scientific computing, data analysis, and AI/machine learning.
+			Overall, HTML and CSS focus on the design and structure of web pages, while PHP and JavaScript are primarily used for web development and programming. Python, on the other hand, is a versatile language used for a wide range of applications beyond web development.</div>
+		</section>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+
+	<script src="script.js"></script>
+	<script src="animation.js"></script>
+</body>
+</html>
